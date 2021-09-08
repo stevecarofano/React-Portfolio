@@ -10,12 +10,15 @@ function MainPage() {
           <a href="https://github.com/stevecarofano" target="blank">
             Steve Carofano
           </a>
+          <p>Full Stack Developer</p>
+          <p>-</p>
+          <p>Gamer</p>
+          <p>-</p>
+          <p>Reader</p>
+          <p>-</p>
+          <p>Guitarist</p>
         </h2>
         <div className="mainFacts">
-          <p>Developer</p>
-          <p>Gamer</p>
-          <p>Reader</p>
-          <p>Musician</p>
         </div>
       </div>
     </div>
