@@ -1,0 +1,33 @@
+
+.mainPage {
+    position: absolute;
+    /* margin: 160px 0 0 20px; */
+    font-size: 35px;
+}
+
+.mainHeading {
+    margin: 0 300px 0 0;
+    display: inline-block;
+}
+
+.mainFacts {
+    display: inline-block;
+    margin: 50px 0 0 0;
+}
+
+.mainHeading a {
+    text-decoration: none;
+}
+
+.mainHeading a:link {
+    text-decoration: none;
+}
+
+.mainHeading a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+.mainHeading a:hover {
+    color: var(--secondary);
+}
