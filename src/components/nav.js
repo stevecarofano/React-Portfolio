@@ -17,7 +17,7 @@ function Navbar() {
         <ul>
           <li><Link to="/" onclick={handleClick}>Home</Link></li>
           <li><Link to="/About" onClick={handleClick} className='nav-links'>About</Link></li>
-          <li>Projects</li>
+          <li><Link to="/Projects" onclick={handleClick}>Projects</Link></li>
           <li>Contact</li>
         </ul>
       </nav>

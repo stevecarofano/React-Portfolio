@@ -4,6 +4,7 @@ import "./App.css";
 import Header from "./components/header";
 import About from "./components/pages/About";
 import Home from "./components/pages/home";
+import Projects from "./components/pages/Projects"
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Switch>
           <Route path="/" exact component={Home} />
           <Route path="/About" exact component={About} />
+          <Route path="/Projects" exact component={Projects} />
         </Switch>
       </Router>
     </>
