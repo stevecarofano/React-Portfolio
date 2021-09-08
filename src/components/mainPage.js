@@ -7,7 +7,7 @@ function MainPage() {
       <div className="mainPage">
         <h2 className="mainHeading">
           <a href="https://github.com/stevecarofano" target="blank">
-          Hello there! I'm Steve Carofano
+            Hello there! I'm Steve Carofano
           </a>
           <p>Full Stack Developer</p>
           <p>-</p>
