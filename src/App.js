@@ -8,7 +8,7 @@ import Home from "./components/pages/home"
 function App() {
   return (
     <>
-      <Router basename='reactportfolio'>
+      <Router>
         <Header />
         <Switch>
           <Route path='/' exact component={Home}/>
