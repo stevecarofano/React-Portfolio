@@ -1,38 +1,344 @@
-.App {
+* {
+  font-family: monospace, sans-serif;
+}
+
+:root {
+  --primary: #e1e8e0;
+  --secondary: rgb(74, 107, 124);
+  --alt: rgb(23, 42, 46);
+}
+
+body {
+  background-color: var(--alt);
+  background-image: url('./images/mountains.jpg');
+  /* background-position: center; */
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+main {
+  background-color: var(--alt);
+}
+
+header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  border-bottom: ridge;
+  background-color: var(--alt);
+  width: 100%;
+  padding: 1px;
+}
+
+header h1 {
+  font-size: 42px;
+  text-align: start;
+  color: var(--primary);
+  margin: 20px 0 10px 0;
+}
+
+h1 span {
+  color: var(--secondary)
+}
+
+.nav ul {
+  text-align: right;
+  font-size: 25px;
+  min-width: 300px;
+  padding-right: 10px;
+  margin-right: 50px;
+}
+
+.nav a:link {
+  color: var(--primary);
+  text-decoration: none;
+}
+
+.nav a:hover {
+  text-decoration: underline;
+}
+
+.nav a:visited {
+  color: var(--primary);
+}
+
+.main-card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  border-color: var(--primary);
+  border-width: 7px;
+  height: 475px;
+  width: 100%; 
+}
+
+
+.main-card h2 {
+  text-align: center;
+  font-size: 60px;
+  color: var(--alt);
+  margin-top: 120px;
+  
+}
+
+.contact span {
+  color: var(--secondary);
+}
+
+#About a {
+  color:var(--alt);
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.projects h4 {
+  text-align: center;
+  font-size: 45px;
+  color: var(--primary);
+  margin-top: 20px;
+}
+
+.footer {
+  margin-top: 30px;
+  padding: 5px 0 5px 0;
+  text-align: center;
+  color: var(--primary);
+  background-color: var(--alt);
+  border-top: ridge;
+
+}
+
+.tab {
+  text-align: center;
+  justify-content: space-between;
+  height: auto;
+  width: 100%;
+  background-color: var(--alt);
+  margin: 20px 0 10px 0;
+  
+}
+
+
+.tab button {
+  color: var(--primary);
+  background-color: var(--alt);
+  border: 2px solid var(--primary);
+  border-radius: 10px 10px 10px 10px;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+}
+
+.tab button:hover {
+  color: black;
+  background-color: #ddd;
+}
+
+.tab button.active {
+  color: black;
+  background-color: var(--primary);
+}
+
+.tabcontent {
+  display: flex;
+  flex-direction: row;
+  padding: 6px 6px;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 20px;
+  width: 90%;
+  background-color: var(--primary);
+  border-radius: 10px 10px 10px 10px;
+  line-height: 25px;
+}
+
+.portLinks {
+  display: flex;
+  flex-direction: row;
+  margin: 10px 10px 10px 10px;
+}
+
+.portLinks img {
+  background-color: var(--secondary);
+  padding: 7px;
+  height: 100%;
+  width: 91%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.portLinks img:hover {
+  transition: transform .5s ease;
+  transform: scale(1.05);
+  box-shadow: none;
+    
+}
+
+.portLinks p {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.portLinks a {
+  text-decoration: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.portLinks a:hover {
+  transition: transform .5s ease;
+  transform: scale(1.1);
+  text-decoration: none;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.portLinks a:visited {
+  color: black;
+}
+
+.aniFind {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  font-weight: bold;
+}
+
+.tabcontent img {
+  margin: auto;
+}
+
+.tracker {
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+}
+
+.scheduler, .empTracker {
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+}
+
+.aniFind a, .empTracker a, .tracker a, .scheduler a {
+  margin-top: 5px;
+}
+
+.empTracker p, .tracker p, .scheduler p, .aniFind p {
+  margin-bottom: 10px;
+}
+
+.gitContact a {
+  color: black;
+  text-decoration: none;
+}
+
+.gitContact img {
+  height: 130px;
+  width: 130px;
+}
+
+.gitContact img:hover {
+  transition: transform .5s ease;
+  transform: scale(1.1);
+}
+
+.linkedIn img, .gmail img {
+  height: 130px;
+  width: 130px;
+}
+
+.gmail img:hover, .linkedIn img:hover {
+  transition: transform .5s ease;
+  transform: scale(1.1);
+}
+
+.tabcontent img {
+  display: inline-block;
+}
+
+.container {
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  display: flex;
+  flex-direction: row;
 }
 
-.App-link {
-  color: #61dafb;
+.container img {
+  margin: 0 10px 0 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media screen and (max-width: 768px) {
+  .tabcontent {
+      font-size: 15px;
+      line-height: 18px;
+      width: 100%;
   }
-  to {
-    transform: rotate(360deg);
+
+  .portLinks {
+      display: flex;
+      flex-direction: column;
+  }
+
+  .portLinks img {
+      padding: 0;
+      
+  }
+  
+  .portLinks p {
+      font-size: 35px;
+      margin: 10px 0 10px 0;
+  }
+  .gmail img {
+      height: 100px;
+      width: 100px;
+  }
+
+  .linkedIn img {
+      height: 100px;
+      width: 100px;
+
+  }
+
+  .gitContact img {
+      height: 95px;
+      width: 95px;
+  }
+
+  .nav a {
+      font-size: 20px;
+  }
+
+  .main-card {
+      height: 300px;
+  }
+
+  .main-card h2 {
+      font-size: 30px;
+  }
+
+  .tabcontent img {
+      margin: auto;
+      width: 100%;
+  }
+
+  .portLinks a {
+      font-size: 20px;
+      margin: 3px 0 10px 0;
+  }
+
+  header {
+      display: inline-block;
+  }
+
+  .container {
+      display: flex;
+      flex-direction: column;
+  }
+
+  .gitContact img, .linkedIn img, .gmail img {
+      width: 50%;
+      height: 5%;
   }
 }
+
+
+
+
+
