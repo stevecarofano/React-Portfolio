@@ -15,12 +15,8 @@ function Navbar() {
       </h1>
       <nav className="nav">
         <ul>
-          <li className="navLi">
-            <a href="./assets/images/CV.pdf" download>
-              Download CV
-            </a>
-          </li>
-          <Link to="/About" onClick={handleClick} className='nav-links'>About</Link>
+          <li><Link to="/" onclick={handleClick}>Home</Link></li>
+          <li><Link to="/About" onClick={handleClick} className='nav-links'>About</Link></li>
           <li>Projects</li>
           <li>Contact</li>
         </ul>

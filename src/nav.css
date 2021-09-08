@@ -22,13 +22,15 @@
 
   .nav ul {
     display: flex;
+    list-style-type: none;
+    color: var(--primary);
+    font-size: 20px;
   }
 
   .nav li {
     padding: 0 10px 0 10px;
     list-style-type: none;
     color: var(--primary);
-    font-size: 20px;
   }
   
   header h1 {

@@ -46,7 +46,6 @@ h1 span {
 .nav ul {
   text-align: right;
   font-size: 25px;
-  min-width: 300px;
   padding-right: 10px;
   margin-right: 50px;
 }
@@ -64,14 +63,13 @@ h1 span {
   color: var(--primary);
 }
 
-.main-card {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  border-color: var(--primary);
-  border-width: 7px;
-  height: 475px;
-  width: 100%; 
+.aboutPage {
+  text-align: center;
+  position: fixed;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
 }
 
 
@@ -299,10 +297,6 @@ h1 span {
   .gitContact img {
       height: 95px;
       width: 95px;
-  }
-
-  .nav a {
-      font-size: 20px;
   }
 
   .main-card {
