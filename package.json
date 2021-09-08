@@ -1,6 +1,6 @@
 {
   "homepage": "https://stevecarofano.github.io/ReactPortfolio/",
-  "name": "react-portfolio",
+  "name": "reactportfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
