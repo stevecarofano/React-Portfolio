@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/stevecarofano.github.io/ReactPortfolio/static/css/main.92daf532.chunk.css",
-    "main.js": "/stevecarofano.github.io/ReactPortfolio/static/js/main.58a4275f.chunk.js",
-    "main.js.map": "/stevecarofano.github.io/ReactPortfolio/static/js/main.58a4275f.chunk.js.map",
-    "runtime-main.js": "/stevecarofano.github.io/ReactPortfolio/static/js/runtime-main.0bbbee79.js",
-    "runtime-main.js.map": "/stevecarofano.github.io/ReactPortfolio/static/js/runtime-main.0bbbee79.js.map",
-    "static/js/2.33811ca8.chunk.js": "/stevecarofano.github.io/ReactPortfolio/static/js/2.33811ca8.chunk.js",
-    "static/js/2.33811ca8.chunk.js.map": "/stevecarofano.github.io/ReactPortfolio/static/js/2.33811ca8.chunk.js.map",
-    "static/js/3.f4a7b86b.chunk.js": "/stevecarofano.github.io/ReactPortfolio/static/js/3.f4a7b86b.chunk.js",
-    "static/js/3.f4a7b86b.chunk.js.map": "/stevecarofano.github.io/ReactPortfolio/static/js/3.f4a7b86b.chunk.js.map",
-    "index.html": "/stevecarofano.github.io/ReactPortfolio/index.html",
-    "static/css/main.92daf532.chunk.css.map": "/stevecarofano.github.io/ReactPortfolio/static/css/main.92daf532.chunk.css.map",
-    "static/js/2.33811ca8.chunk.js.LICENSE.txt": "/stevecarofano.github.io/ReactPortfolio/static/js/2.33811ca8.chunk.js.LICENSE.txt",
-    "static/media/App.css": "/stevecarofano.github.io/ReactPortfolio/static/media/mountains.c029f839.jpg"
+    "main.css": "/ReactPortfolio/static/css/main.fc6cc0f9.chunk.css",
+    "main.js": "/ReactPortfolio/static/js/main.58a4275f.chunk.js",
+    "main.js.map": "/ReactPortfolio/static/js/main.58a4275f.chunk.js.map",
+    "runtime-main.js": "/ReactPortfolio/static/js/runtime-main.9bc971ae.js",
+    "runtime-main.js.map": "/ReactPortfolio/static/js/runtime-main.9bc971ae.js.map",
+    "static/js/2.33811ca8.chunk.js": "/ReactPortfolio/static/js/2.33811ca8.chunk.js",
+    "static/js/2.33811ca8.chunk.js.map": "/ReactPortfolio/static/js/2.33811ca8.chunk.js.map",
+    "static/js/3.f4a7b86b.chunk.js": "/ReactPortfolio/static/js/3.f4a7b86b.chunk.js",
+    "static/js/3.f4a7b86b.chunk.js.map": "/ReactPortfolio/static/js/3.f4a7b86b.chunk.js.map",
+    "index.html": "/ReactPortfolio/index.html",
+    "static/css/main.fc6cc0f9.chunk.css.map": "/ReactPortfolio/static/css/main.fc6cc0f9.chunk.css.map",
+    "static/js/2.33811ca8.chunk.js.LICENSE.txt": "/ReactPortfolio/static/js/2.33811ca8.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/ReactPortfolio/static/media/mountains.c029f839.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.0bbbee79.js",
+    "static/js/runtime-main.9bc971ae.js",
     "static/js/2.33811ca8.chunk.js",
-    "static/css/main.92daf532.chunk.css",
+    "static/css/main.fc6cc0f9.chunk.css",
     "static/js/main.58a4275f.chunk.js"
   ]
 }
