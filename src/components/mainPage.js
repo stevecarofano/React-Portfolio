@@ -6,9 +6,8 @@ function MainPage() {
     <div className="mainContainer">
       <div className="mainPage">
         <h2 className="mainHeading">
-          I'm{" "}
           <a href="https://github.com/stevecarofano" target="blank">
-            Steve Carofano
+          Hello there! I'm Steve Carofano
           </a>
           <p>Full Stack Developer</p>
           <p>-</p>
@@ -18,8 +17,7 @@ function MainPage() {
           <p>-</p>
           <p>Guitarist</p>
         </h2>
-        <div className="mainFacts">
-        </div>
+        <div className="mainFacts"></div>
       </div>
     </div>
   );
