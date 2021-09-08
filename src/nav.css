@@ -19,6 +19,17 @@
     width: 100%;
     padding: 1px;
   }
+
+  .nav ul {
+    display: flex;
+  }
+
+  .nav li {
+    padding: 0 10px 0 10px;
+    list-style-type: none;
+    color: var(--primary);
+    font-size: 20px;
+  }
   
   header h1 {
     font-size: 42px;
@@ -29,10 +40,6 @@
   
   h1 span {
     color: var(--secondary)
-  }
-  
-  .nav {
-    text-align: right;
   }
 
   .navLi {
