@@ -1,4 +1,4 @@
-# Portfolio :test_tube:
+# React Portfolio :test_tube:
 
 ## Description - :page_with_curl:
 
@@ -21,7 +21,7 @@ Coding progressive and responsive web applications has become my newest passion 
 
 Don't hesitate to reach out through the links [Here](#contributors) or in the live deployment of my portfolio. Let's talk tech, books, games, music, or anything else!
 
-## Technologies - :iphone:
+## Technologies :iphone:
 * ```React.js```
 * ```JavaScript```
 * ```CSS3```
@@ -36,7 +36,7 @@ Don't hesitate to reach out through the links [Here](#contributors) or in the li
 ---
 
 
-## Contributors -
+## Contributors
 Steve Carofano
 * [Github](https://github.com/stevecarofano)
 * [LinkedIn](https://www.linkedin.com/in/steve-carofano-6708a6ba/)
