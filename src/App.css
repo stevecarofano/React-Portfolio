@@ -74,18 +74,31 @@ h1 span {
 
 .projectContainer {
   display: flex;
-  flex-direction: row;
+  justify-content: center;
+  /* flex-direction: row; */
+  flex-wrap: wrap;
+  text-align: center;
 }
 
-.aniFind img {
-  height: 200px;
-  width: 250px;
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
+.noteTaker img,
+.aniFind img, 
+.tracker img, 
+.scheduler img,
+.empTracker img,
+.budget img {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  height: 300px;
+  width: 300px;
+  margin: 50px 10px 10px 10px;
   border-radius: 25px;
+}
+
+.aniFind img,
+.tracker img,
+.scheduler img {
+  margin-top: 150px;
 }
 
 .contact span {
@@ -147,39 +160,16 @@ h1 span {
   background-color: var(--primary);
 }
 
-.tabcontent {
-  display: flex;
-  flex-direction: row;
-  padding: 6px 6px;
-  text-align: center;
-  margin-right: auto;
-  margin-left: auto;
-  margin-bottom: 20px;
-  width: 90%;
-  background-color: var(--primary);
-  border-radius: 10px 10px 10px 10px;
-  line-height: 25px;
-}
-
-.portLinks {
-  display: flex;
-  flex-direction: row;
-  margin: 10px 10px 10px 10px;
-}
-
-.portLinks img {
-  background-color: var(--secondary);
-  padding: 7px;
-  height: 100%;
-  width: 91%;
+.projectContainer img {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.portLinks img:hover {
+.projectContainer img:hover {
   transition: transform .5s ease;
   transform: scale(1.05);
   box-shadow: none;
-    
+  opacity: 1;
+  transition: 1s; 
 }
 
 .portLinks p {
