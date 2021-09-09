@@ -101,6 +101,25 @@ h1 span {
   margin-top: 150px;
 }
 
+.aniP {
+  display: none;
+  position: relative;
+  text-align: center;
+  top: -300px;
+}
+
+.aniP span {
+  background-color: white;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.aniFind:hover .aniP {
+  display: block;
+  color: black;
+  font-size: 25px;
+}
+
 .contact span {
   color: var(--secondary);
 }

@@ -12,8 +12,9 @@ function ProjectsPage() {
     <div class="projectContainer">
       <div class="aniFind">
         <a href="https://mbalasuriyar.github.io/Find-an-Anime-For-You/">
-          <img src={anifind} alt=""></img>
+          <img class="anifindImg" src={anifind} alt=""></img>
         </a>
+          <p class="aniP"><span>AniFind</span></p>
       </div>
       <div class="tracker">
         <a href="https://stevecarofano.github.io/Weather-Tracker/">
