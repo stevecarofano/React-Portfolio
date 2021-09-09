@@ -21,7 +21,8 @@ Coding progressive and responsive web applications has become my newest passion 
 
 Don't hesitate to reach out through the links [Here](#contributors) or in the live deployment of my portfolio. Let's talk tech, books, games, music, or anything else!
 
-## Technologies :iphone:
+## Technologies 
+:iphone:
 * ```React.js```
 * ```JavaScript```
 * ```CSS3```
