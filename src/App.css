@@ -16,10 +16,6 @@ body {
   background-size: cover;
 }
 
-main {
-  background-color: var(--alt);
-}
-
 header {
   display: flex;
   flex-wrap: wrap;
@@ -101,20 +97,60 @@ h1 span {
   margin-top: 150px;
 }
 
-.aniP {
+.aniH, 
+.trackerH, 
+.schedulerH, 
+.noteH, 
+.empH,
+.budgetH {
   display: none;
   position: relative;
   text-align: center;
   top: -300px;
 }
 
-.aniP span {
+.aniH span, 
+.trackerH span,
+.schedulerH span,
+.noteH span,
+.empH span,
+.budgetH span {
   background-color: white;
   border-radius: 5px;
   padding: 5px;
 }
 
-.aniFind:hover .aniP {
+.aniFind:hover .aniH {
+  display: block;
+  color: black;
+  font-size: 25px;
+}
+
+.tracker:hover .trackerH {
+  display: block;
+  color: black;
+  font-size: 25px;
+}
+
+.scheduler:hover .schedulerH {
+  display: block;
+  color: black;
+  font-size: 25px;
+}
+
+.noteTaker:hover .noteH {
+  display: block;
+  color: black;
+  font-size: 25px;
+}
+
+.empTracker:hover .empH {
+  display: block;
+  color: black;
+  font-size: 25px;
+}
+
+.budget:hover .budgetH {
   display: block;
   color: black;
   font-size: 25px;
@@ -184,33 +220,11 @@ h1 span {
 }
 
 .projectContainer img:hover {
-  transition: transform .5s ease;
-  transform: scale(1.05);
-  box-shadow: none;
-  opacity: 1;
-  transition: 1s; 
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
 }
 
 .portLinks p {
   text-align: center;
-}
-
-.portLinks a {
-  text-decoration: none;
-}
-
-.portLinks a:hover {
-  transition: transform .5s ease;
-  transform: scale(1.1);
-  text-decoration: none;
-}
-
-.portLinks a:visited {
-  color: black;
-}
-
-.tabcontent img {
-  margin: auto;
 }
 
 .tracker {
@@ -260,16 +274,6 @@ h1 span {
 
 .tabcontent img {
   display: inline-block;
-}
-
-.container {
-  justify-content: center;
-  display: flex;
-  flex-direction: row;
-}
-
-.container img {
-  margin: 0 10px 0 10px;
 }
 
 @media screen and (max-width: 768px) {

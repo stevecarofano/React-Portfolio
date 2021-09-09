@@ -14,32 +14,49 @@ function ProjectsPage() {
         <a href="https://mbalasuriyar.github.io/Find-an-Anime-For-You/">
           <img class="anifindImg" src={anifind} alt=""></img>
         </a>
-          <p class="aniP"><span>AniFind</span></p>
+        <h class="aniH">
+          <span>AniFind</span>
+        </h>
       </div>
       <div class="tracker">
         <a href="https://stevecarofano.github.io/Weather-Tracker/">
           <img src={weathertracker} alt=""></img>
         </a>
+        <h class="trackerH">
+          <span>Weather Tracker</span>
+        </h>
       </div>
       <div class="scheduler">
         <a href="https://stevecarofano.github.io/Work-Day-Planner/">
           <img src={scheduler} alt=""></img>
         </a>
+        <h class="schedulerH">
+          <span>Work Day Planner</span>
+        </h>
       </div>
       <div class="noteTaker">
         <a href="https://github.com/stevecarofano/Note-taker">
           <img src={notetaker} alt=""></img>
         </a>
+        <h class="noteH">
+          <span>Note Taker</span>
+        </h>
       </div>
       <div class="empTracker">
         <a href="https://github.com/stevecarofano/Employee-Tracker">
           <img src={tracker} alt=""></img>
         </a>
+        <h class="empH">
+          <span>Employee Tracker</span>
+        </h>
       </div>
       <div class="budget">
-        <a href="https://github.com/stevecarofanoAdaptable-Budget-Tracker">   
+        <a href="https://github.com/stevecarofanoAdaptable-Budget-Tracker">
           <img src={budget} alt=""></img>
         </a>
+        <h class="budgetH">
+          <span>Budget Tracker</span>
+        </h>
       </div>
     </div>
   );
