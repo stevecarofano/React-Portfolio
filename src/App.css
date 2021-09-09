@@ -156,8 +156,14 @@ h1 span {
   font-size: 25px;
 }
 
-.contact span {
-  color: var(--secondary);
+.contactContainer {
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 
 #About a {
@@ -223,10 +229,6 @@ h1 span {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
 }
 
-.portLinks p {
-  text-align: center;
-}
-
 .tracker {
   display: flex;
   flex-direction: column;
@@ -262,6 +264,10 @@ h1 span {
   transform: scale(1.1);
 }
 
+.gmail img {
+  margin-left: 10px;
+}
+
 .linkedIn img, .gmail img {
   height: 130px;
   width: 130px;
@@ -270,10 +276,6 @@ h1 span {
 .gmail img:hover, .linkedIn img:hover {
   transition: transform .5s ease;
   transform: scale(1.1);
-}
-
-.tabcontent img {
-  display: inline-block;
 }
 
 @media screen and (max-width: 768px) {
