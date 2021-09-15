@@ -180,9 +180,14 @@ h1 span {
 }
 
 .footer {
-  margin-top: 30px;
+  bottom : 0;  
+  height : 20px;  
+  margin-top : 40px;  
+  text-align: center;  
+  vertical-align: middle; 
+  position:fixed;
+  width:100%;
   padding: 5px 0 5px 0;
-  text-align: center;
   color: var(--primary);
   background-color: var(--alt);
   border-top: ridge;
