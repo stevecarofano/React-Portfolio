@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/ReactPortfolio/static/css/main.7f8a2c72.chunk.css",
-    "main.js": "/ReactPortfolio/static/js/main.47c19e5b.chunk.js",
-    "main.js.map": "/ReactPortfolio/static/js/main.47c19e5b.chunk.js.map",
+    "main.js": "/ReactPortfolio/static/js/main.98283a06.chunk.js",
+    "main.js.map": "/ReactPortfolio/static/js/main.98283a06.chunk.js.map",
     "runtime-main.js": "/ReactPortfolio/static/js/runtime-main.0dd99f5d.js",
     "runtime-main.js.map": "/ReactPortfolio/static/js/runtime-main.0dd99f5d.js.map",
     "static/js/2.cc2acc65.chunk.js": "/ReactPortfolio/static/js/2.cc2acc65.chunk.js",
@@ -19,6 +19,7 @@
     "static/media/linkedin.aa83cefa.svg": "/ReactPortfolio/static/media/linkedin.aa83cefa.svg",
     "static/media/App.css": "/ReactPortfolio/static/media/mountains.c029f839.jpg",
     "static/media/notetaker.cd7640d5.png": "/ReactPortfolio/static/media/notetaker.cd7640d5.png",
+    "static/media/resume-SC.b3986505.pdf": "/ReactPortfolio/static/media/resume-SC.b3986505.pdf",
     "static/media/scheduler.eec5b8a2.png": "/ReactPortfolio/static/media/scheduler.eec5b8a2.png",
     "static/media/tracker.18970531.png": "/ReactPortfolio/static/media/tracker.18970531.png",
     "static/media/weathertracker.4ef73d6b.png": "/ReactPortfolio/static/media/weathertracker.4ef73d6b.png"
@@ -27,6 +28,6 @@
     "static/js/runtime-main.0dd99f5d.js",
     "static/js/2.cc2acc65.chunk.js",
     "static/css/main.7f8a2c72.chunk.css",
-    "static/js/main.47c19e5b.chunk.js"
+    "static/js/main.98283a06.chunk.js"
   ]
 }
