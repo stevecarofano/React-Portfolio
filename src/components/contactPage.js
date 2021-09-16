@@ -13,7 +13,7 @@ function ContactPage() {
         </a>
       </div>
       <div class="linkedIn">
-        <a href="https://www.linkedin.com/in/steve-carofano-6708a6ba">
+        <a href="https://www.linkedin.com/in/steve-carofano-jr-6708a6ba/">
           <img src={linkedin} alt=""></img>
         </a>
       </div>
