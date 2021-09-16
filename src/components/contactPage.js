@@ -8,12 +8,12 @@ function ContactPage() {
   return (
     <div class="contactContainer">
       <div class="gitContact">
-        <a href="https://github.com/stevecarofano">
+        <a href="https://github.com/stevecarofano" target="_blank" rel="noopener noreferrer">
           <img src={git} alt=""></img>
         </a>
       </div>
       <div class="linkedIn">
-        <a href="https://www.linkedin.com/in/steve-carofano-jr-6708a6ba/">
+        <a href="https://www.linkedin.com/in/steve-carofano-jr-6708a6ba/" target="_blank" rel="noopener noreferrer">
           <img src={linkedin} alt=""></img>
         </a>
       </div>
