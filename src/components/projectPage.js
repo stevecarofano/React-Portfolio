@@ -6,16 +6,17 @@ import scheduler from "../images/scheduler.png";
 import tracker from "../images/tracker.png";
 import notetaker from "../images/notetaker.png";
 import budget from "../images/budget.png";
+import nuva from "../images/nuva.png"
 
 function ProjectsPage() {
   return (
     <div class="projectContainer">
       <div class="aniFind">
-        <a href="https://mbalasuriyar.github.io/Find-an-Anime-For-You/">
-          <img class="anifindImg" src={anifind} alt=""></img>
+        <a href="https://github.com/stevecarofano/E-Commerce-Template">
+          <img class="anifindImg" src={nuva} alt=""></img>
         </a>
         <h class="aniH">
-          <span>AniFind</span>
+          <span>NuvaStore</span>
         </h>
       </div>
       <div class="tracker">

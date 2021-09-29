@@ -9,7 +9,7 @@ function MainPage() {
           <a href="https://github.com/stevecarofano" target="blank">
             Hello there! I'm Steve Carofano
           </a>
-          <p>Full Stack Developer</p>
+          <p>Web Developer</p>
           <p>-</p>
           <p>Gamer</p>
           <p>-</p>
